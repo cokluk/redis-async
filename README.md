@@ -11,8 +11,13 @@ Use redis commands async with exports on the fivem system. It does not support t
 
 # Usage
 
-### get
+### redis:get
 Key data returns
 ```lua
 exports["redis-async"]:get(KEY)
+```
+### redis:getdel
+key returns and deletes data
+```lua
+exports["redis-async"]:getdel(KEY)
 ```
