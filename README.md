@@ -9,3 +9,4 @@ Use redis commands async with exports on the fivem system. It does not support t
 | Windows  | Redis 3.0.504 or higher  |
 
 
+# Usage
