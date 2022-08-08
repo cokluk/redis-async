@@ -37,3 +37,23 @@ Null reply: (nil) if the SET operation was not performed because the user specif
 ```lua
 exports["redis-async"]:set(KEY, VALUE)
 ```
+### redis:sadd
+Add the specified members to the set stored at key. Specified members that are already a member of this set are ignored. If key does not exist, a new set is created before adding the specified members.
+
+An error is returned when the value stored at key is not a set.
+
+Return
+Integer reply: the number of elements that were added to the set, not including all the elements already present in the set.
+```lua
+exports["redis-async"]:sadd(KEY, VALUE)
+```
+### redis:smembers
+Returns all the members of the set value stored at key.
+
+This has the same effect as running SINTER with one argument key.
+
+Return
+Array reply: all elements of the set.
+```lua
+exports["redis-async"]:smembers(KEY)
+```
