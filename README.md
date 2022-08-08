@@ -15,6 +15,8 @@ Use redis commands async with exports on the fivem system. It does not support t
 | redis_host  | "127.0.0.1"  | String |
 | redis_port  | 6379  | Int |
 
+You will need to put the convars in server.cfg or it will work with default values.
+
 No Pipeline support yet!
 
 # Usage
