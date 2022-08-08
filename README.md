@@ -10,4 +10,9 @@ Use redis commands async with exports on the fivem system. It does not support t
 
 
 # Usage
-```exports["redis-async"]:get(KEY)```
+```lua
+
+exports["redis-async"]:get(KEY)
+
+
+```
