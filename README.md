@@ -8,6 +8,13 @@ Use redis commands async with exports on the fivem system. It does not support t
 | Linux  | Redis 4.0.9 or higher  |
 | Windows  | Redis 3.0.504 or higher  |
 
+## Convars
+
+| Convar  | Default | Type |
+| ------------- | ------------- | ------------- |
+| redis_host  | "127.0.0.1"  | String |
+| redis_port  | 6379  | Int |
+
 No Pipeline support yet!
 
 # Usage
